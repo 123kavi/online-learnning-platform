@@ -1,0 +1,113 @@
+/* enrollmentForm.css */
+
+/* General styling */
+.bodyWrap1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.contentEnrollWrap1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.enrollSide1, .infoSide {
+    flex: 1;
+    padding: 20px;
+}
+
+.enrollWrap1, .enrollWrap {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.enrollWrap1 h2, .enrollWrap h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group1 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group1 select, .input-group1 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-group1 select:focus, .input-group1 input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.focusLabel {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #aaa;
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+.input-group1 input:focus + .focusLabel, .input-group1 select:focus + .focusLabel {
+    top: -10px;
+    left: 10px;
+    font-size: 14px;
+    color: #0056b3;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.infoSide {
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.infoSide h2 {
+    color: #555;
+    text-align: center;
+}
+
+.infoSide p {
+    color: #777;
+    text-align: center;
+}

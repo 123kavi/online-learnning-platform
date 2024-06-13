@@ -1,0 +1,36 @@
+.formBorder {
+    border: 2px solid #ff4d4d; /* Red color shade */
+    padding: 15px; /* Optional: Add padding for better spacing */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    margin-right: 20px; /* Adjust margin-right as per your design */
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* Optional: Adjust max-width based on your layout */
+    margin: 0 auto; /* Optional: Center the form horizontally */
+    margin-top: 50px; /* Apply margin-top similar to loginWrap */
+    padding: 20px; /* Apply padding similar to loginWrap */
+}
+
+.registerForm input,
+.registerForm select,
+.registerForm button {
+    margin-bottom: 10px; /* Optional: Add spacing between form elements */
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.registerForm button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.registerForm button:hover {
+    background-color: #ff3333;
+}
